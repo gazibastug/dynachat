@@ -89,7 +89,6 @@ export default {
       currentUserID: 'getCurrentUserID',
       activeInbox: 'getSelectedInbox',
       convStats: 'getConvTabStats',
-      nextChat: 'getNextChatConversation',
     }),
     assigneeTabItems() {
       return this.$t('CHAT_LIST.ASSIGNEE_TYPE_TABS').map(item => ({

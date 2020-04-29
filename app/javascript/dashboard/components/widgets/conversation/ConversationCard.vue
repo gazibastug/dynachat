@@ -2,7 +2,7 @@
   <div
     class="conversation"
     :class="{ active: isActiveChat, 'unread-chat': hasUnread }"
-    @click="cardClick()"
+    @click="cardClick(chat)"
   >
     <Thumbnail
       v-if="!hideThumbnail"
@@ -94,12 +94,12 @@ export default {
     },
   },
   methods: {
-    cardClick() {
+    cardClick(chat) {
       const { activeInbox } = this;
       const path = conversationUrl(
         this.currentUser.account_id,
         activeInbox,
-        this.$props.chat.id
+        chat.id
       );
       router.push({ path: frontendURL(path) });
     },
