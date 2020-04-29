@@ -53,6 +53,7 @@
 </template>
 
 <script>
+/* global bus */
 /* eslint-env browser */
 /* eslint no-console: 0 */
 import { mapGetters } from 'vuex';
@@ -88,6 +89,7 @@ export default {
       currentUserID: 'getCurrentUserID',
       activeInbox: 'getSelectedInbox',
       convStats: 'getConvTabStats',
+      nextChat: 'getNextChatConversation',
     }),
     assigneeTabItems() {
       return this.$t('CHAT_LIST.ASSIGNEE_TYPE_TABS').map(item => ({
@@ -119,6 +121,11 @@ export default {
     this.$store.dispatch('setChatFilter', this.activeStatus);
     this.resetAndFetchData();
     this.$store.dispatch('agents/get');
+    bus.$on('openNextChat', nextChat => {
+      this.$store.dispatch('setActiveChat', nextChat).then(() => {
+        bus.$emit('scrollToMessage');
+      });
+    });
   },
   methods: {
     resetAndFetchData() {
@@ -157,11 +164,7 @@ export default {
       } else {
         copyList = this.allChatList.slice();
       }
-      const sorted = copyList.sort(
-        (a, b) =>
-          this.lastMessage(b).created_at - this.lastMessage(a).created_at
-      );
-      return sorted;
+      return copyList;
     },
   },
 };

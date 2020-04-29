@@ -31,6 +31,7 @@ export default {
   computed: {
     ...mapGetters({
       currentChat: 'getSelectedChat',
+      nextChat: 'getNextChatConversation',
     }),
     currentStatus() {
       const ButtonName =
@@ -53,8 +54,10 @@ export default {
   methods: {
     toggleStatus() {
       this.isLoading = true;
+      const nextChat = { ...this.nextChat };
       this.$store.dispatch('toggleStatus', this.currentChat.id).then(() => {
         bus.$emit('newToastMessage', this.$t('CONVERSATION.CHANGE_STATUS'));
+        bus.$emit('openNextChat', nextChat);
         this.isLoading = false;
       });
     },
