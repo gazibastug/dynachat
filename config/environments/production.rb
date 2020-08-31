@@ -44,7 +44,10 @@ Rails.application.configure do
   # config.action_cable.url = 'wss://example.com/cable'
   if ENV['FRONTEND_URL'].present?
     config.action_cable.allowed_request_origins = [ENV['FRONTEND_URL'], %r{https?://#{URI.parse(ENV['FRONTEND_URL']).host}(:[0-9]+)?}]
+    config.allowed_cors_origins << ENV['FRONTEND_URL']
   end
+
+  config.allowed_cors_origins << ENV['FRONTEND_CDN_URL'] if ENV['FRONTEND_CDN_URL'].present?
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   config.force_ssl = ActiveModel::Type::Boolean.new.cast(ENV.fetch('FORCE_SSL', false))
@@ -124,12 +127,7 @@ Rails.application.configure do
   config.middleware.insert_before 0, Rack::Cors do
     allow do
       origins '*'
-      resource '/packs/*', headers: :any, methods: :any
+      resource '/packs/*', headers: :any, methods: [:get, :options]
     end
-  end
-
-  allow do
-    origins '*'
-    resource '/packs/*', headers: :any, methods: :get
   end
 end
