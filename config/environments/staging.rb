@@ -102,4 +102,18 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # fonts cors issue with CDN
+  # ref: https://stackoverflow.com/questions/56960709/rails-font-cors-policy
+  config.middleware.insert_before 0, Rack::Cors do
+    allow do
+      origins '*'
+      resource '/packs/*', headers: :any, methods: :any
+    end
+  end
+
+  allow do
+    origins '*'
+    resource '/packs/*', headers: :any, methods: :get
+  end
 end

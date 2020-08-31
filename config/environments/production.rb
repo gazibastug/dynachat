@@ -118,4 +118,18 @@ Rails.application.configure do
   config.action_mailbox.ingress = ENV.fetch('RAILS_INBOUND_EMAIL_SERVICE', 'relay').to_sym
 
   Rails.application.routes.default_url_options = { host: ENV['FRONTEND_URL'] }
+
+  # fonts cors issue with CDN
+  # ref: https://stackoverflow.com/questions/56960709/rails-font-cors-policy
+  config.middleware.insert_before 0, Rack::Cors do
+    allow do
+      origins '*'
+      resource '/packs/*', headers: :any, methods: :any
+    end
+  end
+
+  allow do
+    origins '*'
+    resource '/packs/*', headers: :any, methods: :get
+  end
 end
