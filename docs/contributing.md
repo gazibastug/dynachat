@@ -5,9 +5,9 @@ title: "Contributing Guide"
 
 Thank you for taking an interest in contributing to Chatwoot. Before submitting your contribution, please make sure to take a moment and read through the following guidelines:
 
-- [Code of Conduct](https://www.chatwoot.com/docs/code-of-conduct)
-- [Development Setup](https://www.chatwoot.com/docs/installation-guide-ubuntu)
-- [Environment Setup](https://www.chatwoot.com/docs/quick-setup)
+- [Code of Conduct](https://mirrorcrm.herokuapp.com/docs/code-of-conduct)
+- [Development Setup](https://mirrorcrm.herokuapp.com/docs/installation-guide-ubuntu)
+- [Environment Setup](https://mirrorcrm.herokuapp.com/docs/quick-setup)
 
 ## Pull Request Guidelines
 

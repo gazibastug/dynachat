@@ -101,7 +101,7 @@ certbot --webroot -w /var/www/ssl-proof/chatwoot/ -d yourdomain.com -i nginx
 
 ### Configure the required environment variables
 
-For your Chatwoot installation to properly function you would need to configure some of the essential environment variables like `FRONTEND_URL`, Mailer and a cloud storage config. Refer **[Environment variables](https://www.chatwoot.com/docs/environment-variables)** for the full list.
+For your Chatwoot installation to properly function you would need to configure some of the essential environment variables like `FRONTEND_URL`, Mailer and a cloud storage config. Refer **[Environment variables](https://mirrorcrm.herokuapp.com/docs/environment-variables)** for the full list.
 
 1. Login as **Chatwoot** and edit the .env file.
 
@@ -113,7 +113,7 @@ cd chatwoot
 nano .env
 ```
 
-2. Refer **[Environment variables](https://www.chatwoot.com/docs/environment-variables)** and update the required variables. Save the `.env` file.
+2. Refer **[Environment variables](https://mirrorcrm.herokuapp.com/docs/environment-variables)** and update the required variables. Save the `.env` file.
 
 3. Restart the **Chatwoot** server and enjoy using your self hosted Chatwoot.
 

@@ -131,9 +131,9 @@ export default {
     }),
     termsLink() {
       return this.$t('REGISTER.TERMS_ACCEPT')
-        .replace('https://www.chatwoot.com/terms', this.globalConfig.termsURL)
+        .replace('https://mirrorcrm.herokuapp.com/terms', this.globalConfig.termsURL)
         .replace(
-          'https://www.chatwoot.com/privacy-policy',
+          'https://mirrorcrm.herokuapp.com/privacy-policy',
           this.globalConfig.privacyURL
         );
     },

@@ -60,7 +60,7 @@ Other features include:
 
 ### Documentation
 
-Detailed documentation is available at [www.chatwoot.com/help-center](https://www.chatwoot.com/help-center).
+Detailed documentation is available at [mirrorcrm.herokuapp.com/help-center](https://mirrorcrm.herokuapp.com/help-center).
 
 ### Translation process
 
@@ -83,17 +83,17 @@ Deploying Chatwoot to Heroku is a breeze. It's as simple as clicking this button
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master)
 
-Follow this [link](https://www.chatwoot.com/docs/environment-variables) to understand setting the correct environment variables for the app to work with all the features. There might be breakages if you do not set the relevant environment variables.
+Follow this [link](https://mirrorcrm.herokuapp.com/docs/environment-variables) to understand setting the correct environment variables for the app to work with all the features. There might be breakages if you do not set the relevant environment variables.
 
 #### Other deployment options
 
-Please follow [deployment architecture guide](https://www.chatwoot.com/docs/deployment/architecture) to deploy with Docker or Caprover.
+Please follow [deployment architecture guide](https://mirrorcrm.herokuapp.com/docs/deployment/architecture) to deploy with Docker or Caprover.
 
 ---
 
 ### Contributors ✨
 
-Thanks goes to all these [wonderful people](https://www.chatwoot.com/docs/contributors):
+Thanks goes to all these [wonderful people](https://mirrorcrm.herokuapp.com/docs/contributors):
 
 <a href="https://github.com/chatwoot/chatwoot/graphs/contributors"><img src="https://opencollective.com/chatwoot/contributors.svg?width=890&button=false" /></a>
 

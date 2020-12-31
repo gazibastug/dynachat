@@ -51,7 +51,7 @@ Chatwoot currently supports webhooks for message creation only. Once a new messa
         "browser_version": "80.0.3987.122",
         "platform_version": "10.15.2"
       },
-      "referer": "http://www.chatwoot.com",
+      "referer": "http://mirrorcrm.herokuapp.com",
       "initiated_at": "Tue Mar 03 2020 18:37:38 GMT-0700 (Mountain Standard Time)"
     }
   },

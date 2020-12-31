@@ -12,7 +12,7 @@ title: "Common Errors"
 ArgumentError: invalid uri scheme
 ```
 
-This is an error thrown from redis connector. You might not have setup the redis environment variables properly. Please refer to dependencies section to install redis-server and [Configure Redis URL](https://www.chatwoot.com/docs/environment-variables) in the environment-variables section.
+This is an error thrown from redis connector. You might not have setup the redis environment variables properly. Please refer to dependencies section to install redis-server and [Configure Redis URL](https://mirrorcrm.herokuapp.com/docs/environment-variables) in the environment-variables section.
 
 
 #### pg gem Installation error

@@ -23,7 +23,7 @@ APIs require `api_access_token` in the request header. You can get this token by
 
 #### 1. Create a contact
 
-API documentation: (https://www.chatwoot.com/developers/api/#operation/contactCreate)
+API documentation: (https://mirrorcrm.herokuapp.com/developers/api/#operation/contactCreate)
 
 Pass the inbox id of the API channel along with other params specified. This would create a session for you automatically. A sample response would look like the one below.
 
@@ -63,7 +63,7 @@ As you can see in the payload, you will be able to see the `contact_inboxes` and
 
 #### 2. Create a conversation
 
-API documentation: (https://www.chatwoot.com/developers/api/#operation/newConversation)
+API documentation: (https://mirrorcrm.herokuapp.com/developers/api/#operation/newConversation)
 
 Use the `source_id` received in the previous API call.
 
@@ -77,7 +77,7 @@ You will receive a conversation id which can be used to create a message.
 
 #### 3. Create a new message
 
-API documentation: (https://www.chatwoot.com/developers/api/#operation/conversationNewMessage)
+API documentation: (https://mirrorcrm.herokuapp.com/developers/api/#operation/conversationNewMessage)
 
 There are 2 types of messages.
 

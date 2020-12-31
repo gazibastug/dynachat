@@ -5,13 +5,13 @@
 - name: INSTALLATION_NAME
   value: 'Chatwoot'
 - name: BRAND_URL
-  value: 'https://www.chatwoot.com'
+  value: 'https://mirrorcrm.herokuapp.com'
 - name: WIDGET_BRAND_URL
-  value: 'https://www.chatwoot.com'
+  value: 'https://mirrorcrm.herokuapp.com'
 - name: TERMS_URL
-  value: 'https://www.chatwoot.com/terms-of-service'
+  value: 'https://mirrorcrm.herokuapp.com/terms-of-service'
 - name: PRIVACY_URL
-  value: 'https://www.chatwoot.com/privacy-policy'
+  value: 'https://mirrorcrm.herokuapp.com/privacy-policy'
 - name: DISPLAY_MANIFEST
   value: true
 - name: MAILER_INBOUND_EMAIL_DOMAIN
