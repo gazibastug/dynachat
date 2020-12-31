@@ -5,12 +5,12 @@
     "TERMS_ACCEPT": "Rekisteröitymällä hyväksyt <a href=\"https://mirrorcrm.herokuapp.com/terms\">käyttöehdot & säännöt</a> sekä <a href=\"https://mirrorcrm.herokuapp.com/privacy-policy\">yksityisyydensuojan</a>",
     "ACCOUNT_NAME": {
       "LABEL": "Tilin nimi",
-      "PLACEHOLDER": "Wayne Enterprises",
+      "PLACEHOLDER": "Bora Bastug",
       "ERROR": "Tilin nimi on liian lyhyt"
     },
     "EMAIL": {
       "LABEL": "Sähköposti",
-      "PLACEHOLDER": "bruce@wayne.enterprises",
+      "PLACEHOLDER": "bruce@bora.bastug@gmail.comprises",
       "ERROR": "Sähköposti ei ole kelvollinen"
     },
     "PASSWORD": {

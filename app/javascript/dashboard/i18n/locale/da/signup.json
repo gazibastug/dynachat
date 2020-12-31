@@ -5,12 +5,12 @@
     "TERMS_ACCEPT": "Ved at tilmelde dig, accepterer du vores <a href=\"https://mirrorcrm.herokuapp.com/terms\">T & C</a> og <a href=\"https://mirrorcrm.herokuapp.com/privacy-policy\">Privatlivspolitik</a>",
     "ACCOUNT_NAME": {
       "LABEL": "Kontonavn",
-      "PLACEHOLDER": "Wayne Enterprises",
+      "PLACEHOLDER": "Bora Bastug",
       "ERROR": "Kontonavn er for kort"
     },
     "EMAIL": {
       "LABEL": "E-mail",
-      "PLACEHOLDER": "bruce@wayne.enterprises",
+      "PLACEHOLDER": "bruce@bora.bastug@gmail.comprises",
       "ERROR": "E-mail er ugyldig"
     },
     "PASSWORD": {

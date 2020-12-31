@@ -5,12 +5,12 @@
     "TERMS_ACCEPT": "Зареєструвавшись, ви погоджуєтеся з нашими <a href=\"https://mirrorcrm.herokuapp.com/terms\">Умовами Користування</a> та <a href=\"https://mirrorcrm.herokuapp.com/privacy-policy\">Політикою конфіденційності</a>",
     "ACCOUNT_NAME": {
       "LABEL": "Назва облікового запису",
-      "PLACEHOLDER": "Wayne Enterprises",
+      "PLACEHOLDER": "Bora Bastug",
       "ERROR": "Ім'я аккаунту закоротке"
     },
     "EMAIL": {
       "LABEL": "Email",
-      "PLACEHOLDER": "bruce@wayne.enterprises",
+      "PLACEHOLDER": "bruce@bora.bastug@gmail.comprises",
       "ERROR": "Невірна адреса електронної пошти"
     },
     "PASSWORD": {

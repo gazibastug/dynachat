@@ -43,7 +43,7 @@ Rails.application.configure do
   smtp_settings = {
     port: ENV['SMTP_PORT'] || 25,
     domain: ENV['SMTP_DOMAIN'] || 'localhost',
-    address: ENV['SMTP_ADDRESS'] || 'chatwoot.com'
+    address: ENV['SMTP_ADDRESS'] || 'smtp.yandex.com'
   }
 
   if ENV['SMTP_AUTHENTICATION'].present?

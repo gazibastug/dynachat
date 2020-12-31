@@ -5,12 +5,12 @@
     "TERMS_ACCEPT": "By signing up, you agree to our <a href=\"https://mirrorcrm.herokuapp.com/terms\">T & C</a> and <a href=\"https://mirrorcrm.herokuapp.com/privacy-policy\">Privacy policy</a>",
     "ACCOUNT_NAME": {
       "LABEL": "Account Name",
-      "PLACEHOLDER": "Wayne Enterprises",
+      "PLACEHOLDER": "Bora Bastug",
       "ERROR": "Account Name is too short"
     },
     "EMAIL": {
       "LABEL": "Email",
-      "PLACEHOLDER": "bruce@wayne.enterprises",
+      "PLACEHOLDER": "bruce@bora.bastug@gmail.comprises",
       "ERROR": "Email is invalid"
     },
     "PASSWORD": {

@@ -5,12 +5,12 @@
     "TERMS_ACCEPT": "Dengan mendaftar, Anda menyetujui <a href=\"https://mirrorcrm.herokuapp.com/terms\">S&K</a> dan <a href=\"https://mirrorcrm.herokuapp.com/privacy-policy\">Kebijakan Privasi</a>",
     "ACCOUNT_NAME": {
       "LABEL": "Nama Akun",
-      "PLACEHOLDER": "Wayne Enterprises",
+      "PLACEHOLDER": "Bora Bastug",
       "ERROR": "Nama Akun terlalu pendek"
     },
     "EMAIL": {
       "LABEL": "Email",
-      "PLACEHOLDER": "bruce@wayne.enterprises",
+      "PLACEHOLDER": "bruce@bora.bastug@gmail.comprises",
       "ERROR": "Email tidak valid"
     },
     "PASSWORD": {

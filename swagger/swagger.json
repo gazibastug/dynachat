@@ -1,7 +1,7 @@
 {
   "swagger": 2.0,
   "info": {
-    "description": "This is the API documentation for Chatwoot server.",
+    "description": "This is the API documentation for MirrorCRM  server.",
     "version": "1.0.0",
     "title": "MirrorCRM",
     "termsOfService": "https://mirrorcrm.herokuapp.com/terms-of-service/",

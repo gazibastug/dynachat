@@ -5,7 +5,7 @@
     "TERMS_ACCEPT": "Prin înregistrare, ești de acord cu politica noastră de confidențialitate <a href=\"https://mirrorcrm.herokuapp.com/terms\">T & C</a> și <a href=\"https://mirrorcrm.herokuapp.com/privacy-policy\"></a>",
     "ACCOUNT_NAME": {
       "LABEL": "Nume cont",
-      "PLACEHOLDER": "Wayne Enterprises",
+      "PLACEHOLDER": "Bora Bastug",
       "ERROR": "Nume cont prea scurt"
     },
     "EMAIL": {

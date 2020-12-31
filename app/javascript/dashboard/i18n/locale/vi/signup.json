@@ -5,12 +5,12 @@
     "TERMS_ACCEPT": "Bằng cách đăng ký, bạn đồng ý với <a href=\"https://mirrorcrm.herokuapp.com/terms\">T & C</a> và <a href=\"https://mirrorcrm.herokuapp.com/privacy-policy\">Chính sách bảo mật</a>",
     "ACCOUNT_NAME": {
       "LABEL": "Tên Tài Khoản",
-      "PLACEHOLDER": "Wayne Enterprises",
+      "PLACEHOLDER": "Bora Bastug",
       "ERROR": "Tên tài khoản quá ngắn"
     },
     "EMAIL": {
       "LABEL": "Email",
-      "PLACEHOLDER": "bruce@wayne.enterprises",
+      "PLACEHOLDER": "bruce@bora.bastug@gmail.comprises",
       "ERROR": "Địa chỉ email không hợp lệ"
     },
     "PASSWORD": {

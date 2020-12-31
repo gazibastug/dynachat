@@ -5,7 +5,7 @@
     "TERMS_ACCEPT": "Ao se inscrever, você concorda com nossa <a href=\"https://mirrorcrm.herokuapp.com/terms\">T & C</a> e <a href=\"https://mirrorcrm.herokuapp.com/privacy-policy\">Política de privacidade</a>",
     "ACCOUNT_NAME": {
       "LABEL": "Nome da Conta",
-      "PLACEHOLDER": "Wayne Enterprises",
+      "PLACEHOLDER": "Bora Bastug",
       "ERROR": "O nome da conta é muito curto"
     },
     "EMAIL": {
