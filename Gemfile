@@ -8,7 +8,7 @@ gem 'rails'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
-##-- rails application helper gems --##
+##-- rails application helper gems --###
 gem 'acts-as-taggable-on'
 gem 'attr_extras'
 gem 'browser'
