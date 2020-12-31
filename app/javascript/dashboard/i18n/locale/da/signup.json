@@ -10,7 +10,7 @@
     },
     "EMAIL": {
       "LABEL": "E-mail",
-      "PLACEHOLDER": "bruce@bora.bastug@gmail.comprises",
+      "PLACEHOLDER": "bora.bastug@gmail.com",
       "ERROR": "E-mail er ugyldig"
     },
     "PASSWORD": {

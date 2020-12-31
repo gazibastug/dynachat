@@ -10,7 +10,7 @@
     },
     "EMAIL": {
       "LABEL": "Email",
-      "PLACEHOLDER": "Bruce@bora.bastug@gmail.comprises",
+      "PLACEHOLDER": "bora.bastug@gmail.com",
       "ERROR": "Неверный адрес электронной почты"
     },
     "PASSWORD": {

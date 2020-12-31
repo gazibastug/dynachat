@@ -10,7 +10,7 @@
     },
     "EMAIL": {
       "LABEL": "Correu electrònic",
-      "PLACEHOLDER": "bruce@bora.bastug@gmail.comprises",
+      "PLACEHOLDER": "bora.bastug@gmail.com",
       "ERROR": "El correu electrònic no és correcte"
     },
     "PASSWORD": {

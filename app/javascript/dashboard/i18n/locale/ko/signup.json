@@ -10,7 +10,7 @@
     },
     "EMAIL": {
       "LABEL": "이메일",
-      "PLACEHOLDER": "bruce@bora.bastug@gmail.comprises",
+      "PLACEHOLDER": "bora.bastug@gmail.com",
       "ERROR": "이메일이 잘못됨"
     },
     "PASSWORD": {

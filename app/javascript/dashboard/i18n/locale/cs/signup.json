@@ -10,7 +10,7 @@
     },
     "EMAIL": {
       "LABEL": "E-mailová adresa",
-      "PLACEHOLDER": "bruce@bora.bastug@gmail.comprises",
+      "PLACEHOLDER": "bora.bastug@gmail.com",
       "ERROR": "E-mail je neplatný"
     },
     "PASSWORD": {
