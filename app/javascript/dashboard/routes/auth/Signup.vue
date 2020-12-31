@@ -130,12 +130,9 @@ export default {
       globalConfig: 'globalConfig/get',
     }),
     termsLink() {
-      return this.$t('REGISTER.TERMS_ACCEPT')
-        .replace('https://mirrorcrm.herokuapp.com/terms', this.globalConfig.termsURL)
-        .replace(
-          'https://mirrorcrm.herokuapp.com/privacy-policy',
-          this.globalConfig.privacyURL
-        );
+      return this.$t('REGISTER.TERMS_ACCEPT');
+        
+        
     },
   },
   methods: {
